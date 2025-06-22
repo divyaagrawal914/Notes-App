@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    background: linear-gradient(#275b9a,#d443c8);
+    color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 10%;
+    padding-top: 4%;
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight:300;
+}
+.container h1 img{
+    width: 40px;
+    margin-right: 10px;
+}
+.container button{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    margin: 10px 0 20px;
+    background: rgb(111, 35, 121);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.container button img{
+    width: 18px;
+    margin-right: 10px;
+}
+.input-box{
+    position: relative;
+    background: #fff;
+    color: #222;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+}
+.notes-container img{
+    width: 25px;
+    bottom: 15px;
+    right: 15px;
+    position: absolute;
+    cursor: pointer;
+}
